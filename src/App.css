@@ -40,3 +40,33 @@
 .read-the-docs {
   color: #888;
 }
+.product-details{
+  border:solid rgb(155, 59, 42);
+  border-radius: 10px;
+  border-width: 2px;
+  padding: 10px;
+  margin: 10px;
+  
+}
+.products-list{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+
+img {
+  width: 50%;
+  height: auto;
+  object-fit: cover;
+}
+.cart-list{
+  border:solid rgb(155, 59, 42);
+  border-radius: 10px;
+  border-width: 2px;
+}
+.cart-details{
+  border:solid rgb(155, 59, 42);
+  border-radius: 10px;
+  border-width: 2px;
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
+}
